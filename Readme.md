@@ -2,7 +2,7 @@
 
 Set of shortcuts for common EcmaScript6 expressions
 
-![demo/demo.png]
+![demo](demo.gif)
 
 ## Included templates
 
