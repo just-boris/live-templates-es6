@@ -1,0 +1,22 @@
+<template name="edc" value="export default class $filename$ $end$" description="Define default export" toReformat="false" toShortenFQNames="true">
+  <variable name="filename" expression="" defaultValue="fileNameWithoutExtension(&quot;fileName&quot;)" alwaysStopAt="true" />
+  <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="edf" value="export default function $filename$($args$) {&#10;    $end$&#10;}" description="Export default function" toReformat="false" toShortenFQNames="true">
+  <variable name="filename" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="imf" value="import $name$ from '$module$';" description="Import from" toReformat="false" toShortenFQNames="true">
+  <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
