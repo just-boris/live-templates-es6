@@ -1,18 +1,26 @@
-# Live templates for EcmaScript6
+# Live templates for JS Modules
 
-Set of shortcuts for common EcmaScript6 expressions
+The set of shortcuts for common module import and export expressions
 
 ![demo](demo.gif)
 
 ## Included templates
 
+**ES6**
+
 * **imf** - `import module from 'module'`
 * **edc** - `export default class className`
-* **edf** - `export default function functioName() {}`
+* **edf** - `export default function functionName() {}`
 
-Templates try to insert appropriate name according current file name.
+**Commonjs**
+
+* **csr** - `const { value } = require('module')`
+* **mde** - `module.exports = value`
+
+Templates will try to provide varialbe name according to the current file name.
 
 ## Installation
 
-Paste content of the [templates.xml](templates.xml) on the `Settings -> Preferences -> Live templates` tab.
-[Live templates](https://www.jetbrains.com/idea/help/sharing-live-templates.html) in IntelliJ documentation.
+Paste the content of the [templates.xml](templates.xml) on the `Settings -> Preferences -> Live templates` tab.
+
+Documentation about [live templates](https://www.jetbrains.com/idea/help/sharing-live-templates.html) on IntelliJ website.

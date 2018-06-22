@@ -20,3 +20,16 @@
     <option name="JS_STATEMENT" value="true" />
   </context>
 </template>
+<template name="csr" value="const { $name$ } = require('$module$')" description="Require with destructuring" toReformat="false" toShortenFQNames="true">
+  <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="mde" value="module.exports = $export$" description="Module exports" toReformat="false" toShortenFQNames="true">
+  <variable name="export" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
